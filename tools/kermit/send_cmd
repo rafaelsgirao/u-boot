@@ -1,4 +1,4 @@
-#!/usr/bin/kermit +
+#!/usr/bin/env kermit +
 set line /dev/ttyS0
 set speed 115200
 set serial 8N1

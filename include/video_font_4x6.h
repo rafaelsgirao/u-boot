@@ -12,7 +12,7 @@
 
 /*
 
-#!/usr/bin/perl -pn
+#!/usr/bin/env perl -pn
 
 s{((0x)?[0-9a-fA-F]+)(.*\[([\*\ ]{4})\])}{
 

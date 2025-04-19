@@ -1,4 +1,4 @@
-#!/usr/bin/kermit +
+#!/usr/bin/env kermit +
 # usage: send_image FILE_NAME OFFSET
 # e.g.   send_image output.bin 1F00000
 set line /dev/ttyS0

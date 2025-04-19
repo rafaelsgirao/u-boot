@@ -178,7 +178,7 @@ To use the system versions of these, use the DTC parameter, for example
 
 .. code-block:: bash
 
-    DTC=/usr/bin/dtc make
+    DTC=/usr/bin/env dtc make
 
 In this case, dtc and pylibfdt are not built. The build checks that the version
 of dtc is new enough. It also makes sure that pylibfdt is present, if needed

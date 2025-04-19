@@ -1,4 +1,4 @@
-#! /usr/bin/perl -w
+#! /usr/bin/env perl -w
 use strict;
 open(my $out, '>:raw', 'ivt.bin') or die "Unable to open: $!";
 print $out pack("V", 0x412000D1); # Signature

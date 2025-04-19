@@ -1,4 +1,4 @@
-#!/usr/bin/kermit +
+#!/usr/bin/env kermit +
 # usage: ./flash_param parameters
 # Parameters: IP Address       ETH Address        ERIC Number
 # Format:     xxx.xxx.xxx.xxx  xx:xx:xx:xx:xx:xx  xxxx
